@@ -14,7 +14,7 @@
         to right bottom, 
         rgba($color-primary-light, 0.801), 
         rgba($color-primary-dark, 0.801)),
-        url(../img/pic-9.jpg);
+        url(../img/pic-9_small.jpg);
     background-size: cover;
     transform: skewY(-7deg);
     margin-top: -10rem;
@@ -43,7 +43,7 @@
         to right bottom, 
         rgba($color-grey-light-1, 0.8), 
         rgba($color-grey-light-2, 0.8)),
-        url(../img/pic-12.jpg);
+        url(../img/pic-12_small.jpg);
     background-size: cover;
     position: relative;
     padding: 15rem 0;
@@ -73,7 +73,7 @@
                                     rgba($color-white, .9) 0%,
                                     rgba($color-white, .9) 65%, 
                                     transparent 65%),
-                                    url(../img/pic-10.jpg);
+                                    url(../img/pic-10_small.jpg);
         background-size: cover;
     }
 
@@ -81,7 +81,7 @@
         background-image: linear-gradient(to right, 
                                     rgba($color-white, .9) 0%,
                                     rgba($color-white, .9) 100%),
-                                    url(../img/pic-10.jpg);
+                                    url(../img/pic-10_small.jpg);
     }
 
     &__form {

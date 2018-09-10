@@ -365,7 +365,7 @@ body {
     .card__picture--2 {
       background-image: linear-gradient(to right bottom, #96c6f3, #2998ff), url(../img/pic-13.jpg); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../img/pic-14.jpg); }
+      background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../img/pic-14_small.jpg); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -691,7 +691,7 @@ body {
       height: 95vh; } }
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
     .header {
-      background-image: linear-gradient(to right bottom, rgba(150, 198, 243, 0.6), rgba(41, 152, 255, 0.5)), url(../img/hero-1.jpg); } }
+      background-image: linear-gradient(to right bottom, rgba(150, 198, 243, 0.6), rgba(41, 152, 255, 0.5)), url(../img/hero-1_small.jpg); } }
   @media only screen and (max-width: 37.5em) {
     .header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
@@ -940,7 +940,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(150, 198, 243, 0.801), rgba(41, 152, 255, 0.801)), url(../img/pic-9.jpg);
+  background-image: linear-gradient(to right bottom, rgba(150, 198, 243, 0.801), rgba(41, 152, 255, 0.801)), url(../img/pic-9_small.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem; }
@@ -959,7 +959,7 @@ body {
       padding: 20rem 0 10rem 0; } }
 
 .section-stories {
-  background-image: linear-gradient(to right bottom, rgba(247, 247, 247, 0.8), rgba(238, 238, 238, 0.8)), url(../img/pic-12.jpg);
+  background-image: linear-gradient(to right bottom, rgba(247, 247, 247, 0.8), rgba(238, 238, 238, 0.8)), url(../img/pic-12_small.jpg);
   background-size: cover;
   position: relative;
   padding: 15rem 0; }
@@ -978,11 +978,11 @@ body {
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }
   @media only screen and (max-width: 75em) {
     .book {
-      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/pic-10.jpg);
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/pic-10_small.jpg);
       background-size: cover; } }
   @media only screen and (max-width: 56.25em) {
     .book {
-      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/pic-10.jpg); } }
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/pic-10_small.jpg); } }
   .book__form {
     width: 50%;
     padding: 6rem; }
