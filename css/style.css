@@ -465,7 +465,6 @@ body {
   .story__shape {
     width: 25rem;
     height: 25rem;
-    background-color: orangered;
     float: left;
     transform: translateX(-3rem) skewX(12deg);
     position: relative;
@@ -483,9 +482,12 @@ body {
         transform: translateX(-3rem) skewX(0); } }
   .story__img {
     height: 100%;
-    transform: translateX(-4rem) scale(1.4);
+    transform: translateX(-7.5rem) scale(1);
+    filter: brightness(80%);
     backface-visibility: hidden;
     transition: all .5s; }
+    .story__img--soon {
+      filter: blur(4px); }
   .story__text {
     color: #333;
     transform: skewX(12deg); }
@@ -494,22 +496,15 @@ body {
         transform: skewX(0); } }
   .story__caption {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, 20%);
     font-size: 1.7rem;
-    color: #fff;
     text-transform: uppercase;
     text-align: center;
-    opacity: 0;
+    opacity: 1;
     transition: all .5s;
     backface-visibility: hidden; }
-  .story:hover .story__caption {
-    opacity: 1;
-    transform: translate(-50%, -50%); }
-  .story:hover .story__img {
-    transform: translateX(-4rem) scale(1);
-    filter: brightness(80%); }
 
 .bg-video {
   position: absolute;

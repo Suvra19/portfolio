@@ -22,7 +22,6 @@
     &__shape {
         width: 25rem;
         height: 25rem;
-        background-color: orangered;
         float: left;
         transform: translateX(-3rem) skewX(12deg);
         position: relative;
@@ -44,9 +43,15 @@
 
     &__img {
         height: 100%;
-        transform: translateX(-4rem) scale(1.4);
+        //transform: translateX(-4rem) scale(1.4);
+        transform: translateX(-7.5rem) scale(1);
+        filter: brightness(80%);
         backface-visibility: hidden;
         transition: all .5s;
+
+        &--soon {
+            filter: blur(4px);
+        }
     }
 
     &__text {
@@ -59,25 +64,25 @@
 
     &__caption {
         position: absolute;
-        top: 50%;
+        top: 45%;
         left: 50%;
         transform: translate(-50%, 20%);
         font-size: 1.7rem;
-        color: $color-white;
+        //color: $color-white;
         text-transform: uppercase;
         text-align: center;
-        opacity: 0;
+        opacity: 1;
         transition: all .5s;
         backface-visibility: hidden;
     }
 
-    &:hover &__caption {
-        opacity: 1;
-        transform: translate(-50%, -50%);
-    } 
+    // &:hover &__caption {
+    //     opacity: 1;
+    //     transform: translate(-50%, -50%);
+    // } 
 
-    &:hover &__img {
-        transform: translateX(-4rem) scale(1);
-        filter: brightness(80%);
-    }
+    // &:hover &__img {
+    //     transform: translateX(-7.5rem) scale(1);
+    //     filter: brightness(80%);
+    // }
 }
