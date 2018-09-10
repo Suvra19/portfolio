@@ -17,7 +17,7 @@
     <body>
 
         <div class="navigation">
-            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle" name="navi-toggle">
             <label for="navi-toggle" class="navigation__button">
                 <span class="navigation__icon">&nbsp;</span>
             </label>
@@ -26,10 +26,10 @@
 
             <nav class="navigation__nav">
                 <ul class="navigation__list">
-                    <li class="navigation__item"><a href="#" class="navigation__link">Wait, Subhra... what ?</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link">What's your superpower ?</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link">Do you even code bro ?</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link">We should team up!</a></li>
+                    <li class="navigation__item"><a href="#section-about" name="navi-toggle" class="navigation__link">About me</a></li>
+                    <li class="navigation__item"><a href="#section-tours" class="navigation__link">My toolkit</a></li>
+                    <li class="navigation__item"><a href="#section-stories" class="navigation__link">My projects</a></li>
+                    <li class="navigation__item"><a href="#section-book" class="navigation__link">Let's chat!</a></li>
                 </ul>
             </nav>
         </div>
@@ -52,17 +52,17 @@
         </header>
         
         <main>
-            <section class="section-about">
+            <section class="section-about" id="section-about">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
-                        Wait, Subhra... what ?
+                        About me
                     </h2>
                 </div>
                 <div class="row">
                     <div class="col-1-of-2">
                         <h3 class="heading-tertiary u-margin-bottom-small">My name is Subhramitra Borkakati</h3 >
                         <p class="paragraph">
-                            I am from the north-eastern part of India. My name means "good friend" and not only is it an uncommon name in India, I am the only one by this name in the whole world wide web.  
+                            I am from the north-eastern part of India. My name means a "good friend" and the funny thing is, not only is it an uncommon name in India, I am the only one by this name in the whole world wide web.  
                         </p>
 
                         <h3 class="heading-tertiary u-margin-bottom-small">Software developer by profession, traveller at heart</h3> 
@@ -96,13 +96,13 @@
 
                             <img src="img/pic-1_small.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
                             <img src="img/pic-2_small.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
-                            <img src="img/pic-3_small.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
+                            <img src="img/pic-15_small.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="section-features">
+            <section class="section-features" id="section-features">
                 <div class="row">
                     <div class="col-1-of-3">
                         <div class="feature-box">
@@ -158,10 +158,10 @@
                 </div> -->
             </section>
 
-            <section class="section-tours">
+            <section class="section-tours" id="section-tours">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
-                        My superpowers
+                        My toolkit
                     </h2>
                 </div>
                 
@@ -186,17 +186,15 @@
                                 </div>
                             </div>
                             <div class="card__side card__side--back card__side--back-1">
-                                <div class="card__cta">
-                                    <div class="card__price-box">
-                                        <p class="card__price-only">Current language of choice</p>
-                                        <p class="card__price-value">JavaScript</p>
-                                        <p class="card__price-only">Currently exploring</p>
-                                        <p class="card__price-value">GraphQL</p>
-                                        <p class="card__price-only">Passionate about</p>
-                                        <p class="card__price-value">Sofware design</p>
-                                    </div>
-                                    <!-- <a href="#popup" class="btn btn--white">Book now!</a> -->
+                                <div class="card__price-box">
+                                    <p class="card__price-only">Current language of choice</p>
+                                    <p class="card__price-value">JavaScript</p><br>
+                                    <p class="card__price-only">Currently exploring</p>
+                                    <p class="card__price-value">GraphQL</p><br>
+                                    <p class="card__price-only">Passionate about</p>
+                                    <p class="card__price-value">Sofware design</p>
                                 </div>
+                                <!-- <a href="#popup" class="btn btn--white">Book now!</a> -->
                             </div>
                         </div>
                     </div>
@@ -221,17 +219,15 @@
                                 </div>
                             </div>
                             <div class="card__side card__side--back card__side--back-2">
-                                <div class="card__cta">
-                                    <div class="card__price-box">
-                                        <p class="card__price-only">Current library of choice</p>
-                                        <p class="card__price-value">React</p>
-                                        <p class="card__price-only">Currently exploring</p>
-                                        <p class="card__price-value">Responsive design</p>
-                                        <p class="card__price-only">Passionate about</p>
-                                        <p class="card__price-value">User Experience</p>
-                                    </div>
-                                    <!-- <a href="#popup" class="btn btn--white">Book now!</a> -->
+                                <div class="card__price-box">
+                                    <p class="card__price-only">Current library of choice</p>
+                                    <p class="card__price-value">React</p><br>
+                                    <p class="card__price-only">Currently exploring</p>
+                                    <p class="card__price-value">Responsive design</p><br>
+                                    <p class="card__price-only">Passionate about</p>
+                                    <p class="card__price-value">User Experience</p>
                                 </div>
+                                <!-- <a href="#popup" class="btn btn--white">Book now!</a> -->
                             </div>
                         </div>
                     </div>
@@ -257,17 +253,15 @@
                             </div>
                             <div class="card__side card__side--back
                             card__side--back-3">
-                                <div class="card__cta">
-                                    <div class="card__price-box">
-                                        <p class="card__price-only">Current database of choice</p>
-                                        <p class="card__price-value">MongoDB</p>
-                                        <p class="card__price-only">Currently exploring</p>
-                                        <p class="card__price-value">MongoDB aggregation</p>
-                                        <p class="card__price-only">Passionate about</p>
-                                        <p class="card__price-value">Data visualization</p>
-                                    </div>
-                                    <!-- <a href="#popup" class="btn btn--white">Book now!</a> -->
+                                <div class="card__price-box">
+                                    <p class="card__price-only">Current database of choice</p>
+                                    <p class="card__price-value">MongoDB</p><br>
+                                    <p class="card__price-only">Currently exploring</p>
+                                    <p class="card__price-value">MongoDB aggregation</p><br>
+                                    <p class="card__price-only">Passionate about</p>
+                                    <p class="card__price-value">Data visualization</p>
                                 </div>
+                                <!-- <a href="#popup" class="btn btn--white">Book now!</a> -->
                             </div>
                         </div>
                     </div>
@@ -277,7 +271,7 @@
                 </div> -->
             </section>
             
-            <section class="section-stories">
+            <section class="section-stories" id="section-stories">
                 <!-- <div class="bg-video">
                     <video class="bg-video__content" autoplay muted loop>
                         <source src="img/video-3.mp4" type="video/mp4">
@@ -285,8 +279,6 @@
                         Your browser is not supported!
                     </video>
                 </div> -->
-                <div class="bg-image">
-                </div>
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
                         My projects
@@ -346,7 +338,7 @@
                 </div> -->
             </section>
 
-            <section class="section-book">
+            <section class="section-book" id="section-book">
                 <div class="row">
                     <div class="book">
                         <div class="book__form">

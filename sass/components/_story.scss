@@ -38,6 +38,9 @@
 
         @include respond(phone) {
             transform: translateX(-3rem) skewX(0);
+            float: none;
+            margin: 0 auto;
+            margin-bottom: 2rem;
         }
     }
 
@@ -59,6 +62,8 @@
         transform: skewX(12deg);
         @include respond(phone) {
             transform: skewX(0);
+            text-align: justify;
+            text-justify: inter-word;
         }
     }
 
