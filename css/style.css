@@ -261,7 +261,8 @@ body {
     border-radius: 2px;
     position: absolute;
     z-index: 10;
-    outline-offset: 2rem; }
+    outline-offset: 2rem;
+    touch-action: none; }
     @media only screen and (max-width: 56.25em) {
       .composition__photo {
         float: left;
@@ -295,9 +296,11 @@ body {
       outline: 1.5rem solid #2998ff;
       transform: scale(1.05) translate(-0.5rem);
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
-      z-index: 20; }
+      z-index: 20;
+      touch-action: none; }
   .composition:hover .composition__photo:not(:hover) {
-    transform: scale(0.95); }
+    transform: scale(0.95);
+    touch-action: none; }
 
 .feature-box {
   background-color: rgba(255, 255, 255, 0.8);
