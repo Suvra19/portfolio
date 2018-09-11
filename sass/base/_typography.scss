@@ -88,7 +88,8 @@ body {
 }
 
 .paragraph {
-    font-size: $default-font-size;
+    font-size: 1.5rem;
+    text-align: justify;
 
     &:not(:last-child) {
         margin-bottom: 3rem;
