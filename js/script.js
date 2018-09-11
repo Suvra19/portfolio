@@ -5,13 +5,13 @@ navElements.addEventListener("click", (e) => {
     navIcon.checked = false;
 })
 
-window.onload = () => {
-    let urlArr = window.location.search.split('?')
-    if (urlArr.length === 2 && urlArr[1] === 'showMessage') {
-        let message = document.querySelector(".message")
-        message.classList.remove('message__hidden');
-        setTimeout(() => {
-            message.classList.add('message__hidden');
-        }, 3000)
-    }
-}
+// window.onload = () => {
+//     let urlArr = window.location.search.split('?')
+//     if (urlArr.length === 2 && urlArr[1] === 'showMessage') {
+//         let message = document.querySelector(".message")
+//         message.classList.remove('message__hidden');
+//         setTimeout(() => {
+//             message.classList.add('message__hidden');
+//         }, 3000)
+//     }
+// }
