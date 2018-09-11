@@ -7,7 +7,6 @@ navElements.addEventListener("click", (e) => {
 
 window.onload = () => {
     let urlArr = window.location.search.split('?')
-    console.log(urlArr)
     if (urlArr.length === 2 && urlArr[1] === 'showMessage') {
         let message = document.querySelector(".message")
         message.classList.remove('message__hidden');
