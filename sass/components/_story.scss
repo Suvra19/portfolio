@@ -58,7 +58,7 @@
     }
 
     &__text {
-        color: $color-grey-dark-3;
+        color: $color-grey-dark;
         transform: skewX(12deg);
         @include respond(phone) {
             transform: skewX(0);
