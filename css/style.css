@@ -367,9 +367,9 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/pic-4.jpg); }
+      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/pic-4_small.jpg); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #96c6f3, #2998ff), url(../img/pic-13.jpg); }
+      background-image: linear-gradient(to right bottom, #96c6f3, #2998ff), url(../img/pic-13_small.jpg); }
     .card__picture--3 {
       background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../img/pic-14_small.jpg); }
   .card__heading {
