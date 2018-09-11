@@ -687,7 +687,7 @@ body {
 
 .header {
   height: 85vh;
-  background-image: linear-gradient(to right bottom, rgba(150, 198, 243, 0.6), rgba(41, 152, 255, 0.5)), url(../img/hero-1.jpg);
+  background-image: linear-gradient(to right bottom, rgba(150, 198, 243, 0.6), rgba(41, 152, 255, 0.5)), url(../img/hero-1_small.jpg);
   background-size: cover;
   background-position: top;
   position: relative; }
